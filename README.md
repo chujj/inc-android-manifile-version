@@ -1,36 +1,25 @@
 # increase-androidmanifest-version
 
-FIXME: description
+一个简单的clojure小程序, 替换原先的shell脚本。功能是将同目录下的
+AndroidManifest.xml文件中的版本号(versionCode versionName)自增一位，且
+不影响其它行的内容。并打印修改后的版本str
 
 ## Installation
 
-Download from http://example.com/FIXME.
+    $ lein uberjar
 
 ## Usage
 
-FIXME: explanation
+    $ java -jar increase-androidmanifest-version-0.1.0-standalone.jar
 
-    $ java -jar increase-androidmanifest-version-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
 
 ## Examples
 
-...
+before:
+    android:versionCode="157"
+    android:versionName="1.0.3.11">
+after:
+    android:versionCode="158"
+    android:versionName="1.0.3.12">
 
-### Bugs
 
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2015 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
