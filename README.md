@@ -16,9 +16,12 @@ AndroidManifest.xml文件中的版本号(versionCode versionName)自增一位，
 ## Examples
 
 before:
+
     android:versionCode="157"
     android:versionName="1.0.3.11">
+
 after:
+
     android:versionCode="158"
     android:versionName="1.0.3.12">
 
